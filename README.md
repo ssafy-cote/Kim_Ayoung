@@ -9,3 +9,11 @@
 | 1주차 | 2024년 1월 16일 |  백준   |  3273_두 수의 합      | https://www.acmicpc.net/problem/3273     |
 | 1주차 | 2024년 1월 17일 | 프로그래머스 | 삼각 달팽이       | https://school.programmers.co.kr/learn/courses/30/lessons/68645 |
 | 1주차 | 2024년 1월 18일 | 프로그래머스 | 모음사전          | https://school.programmers.co.kr/learn/courses/30/lessons/84512 |
+
+### 2주차
+| 주차 |      날짜       |  사이트  |   문제 제목 및 번호   |                                     링크                                      |
+|------|----------------|----------|-----------------------|---------------------------------------------------------------------------------|
+| 2주차 | 2024년 1월 22일 |  백준   |  1205_등수 구하기      | [문제 링크](https://www.acmicpc.net/problem/1205)                               |
+| 2주차 | 2024년 1월 23일 |  백준   |  1912_연속합          | [문제 링크](https://www.acmicpc.net/problem/1912)                               |
+| 2주차 | 2024년 1월 24일 | 프로그래머스 | 주식 가격          | [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42584)  |
+| 2주차 | 2024년 1월 25일 |  백준   |  15683_감시           | [문제 링크](https://www.acmicpc.net/problem/15683)                              |
