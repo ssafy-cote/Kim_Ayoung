@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/* dp로 풀어보기
+* dp[i] = Math.max(dp[i - 1] + num, num);
+*/
+
 public class Main {
 	final static int min = -10000;
 	static int N;
