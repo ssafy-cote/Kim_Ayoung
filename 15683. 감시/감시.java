@@ -1,3 +1,8 @@
+/*
+* 최적화 -> CCTV를 만날 때마다 접근하여 배열을 변경시키지 않고, 모든 카메라의 방향을 지정한 후 세팅하면 속도 증가할 듯
+*/
+
+
 import java.util.Arrays;
 import java.util.Scanner;
 
