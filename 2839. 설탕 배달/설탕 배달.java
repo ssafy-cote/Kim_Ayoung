@@ -18,8 +18,7 @@ public class Main {
 			}
 			
 			cnt5 --;
-			if(cnt5 != 0) cnt3 = (N - 5 * cnt5) / 3;
-			else cnt3 = N / 3;
+			cnt3 = (N - 5 * cnt5) / 3;
 			
 		}
 		System.out.println(answer);
