@@ -1,4 +1,8 @@
 import java.util.Scanner;
+/*
+* 찾아야 하는 r, c가 사각형의 처음 r,c와 마지막 r,c 사이에 있다면 재귀를 돌아 더 작은 사각형으로 비교한다. 
+* 만약에 사이에 없다면 for문을 돌아 사각형의 r, c를 변경해준다. 이때 재귀를 돌지 않을 때 r,c는 최대 4번 바뀐다.(그 안에 재귀를 돈다)
+*/
 public class Main {
 	
 	static int answer = -1;
