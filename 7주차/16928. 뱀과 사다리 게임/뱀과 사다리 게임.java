@@ -1,3 +1,5 @@
+package day20;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -26,9 +28,10 @@ import java.util.StringTokenizer;
  * 100번 칸에 도착하기 위해 주사위를 최소 몇 번 굴려야 하는지 출력
  * 
  * 풀이
- * 최소는 최대 값이 주사위에 나오고 모든 
+ * dp
+ * 뱀을 만날 때마다 재귀를 돌아서 최솟값으로 갱신
  */
-public class Main {
+public class Gold_16928 {
 	
 	static HashMap<Integer, Integer> ladders = new HashMap<>();
 	static HashMap<Integer, Integer> snakes = new HashMap<>();
@@ -68,15 +71,19 @@ public class Main {
 			
 			for(int j = 6; j > 0; j--) {
 				if(i - j < 0) continue;
+				// 뱀을 만나면 이전으로 이동해 줘야 하므로 고려 하지 않음
 				if(snakes.containsKey(i - j)) continue;
 				array[i] = Math.min(array[i],  array[i - j] + 1);
 			}
-
+			
+			// 뱀을 만나고 뱀 도착 값이  최소 값으로 바뀔 경우
 			if(snakes.containsKey(i) && array[snakes.get(i)] > array[i]) {
 				array[snakes.get(i)] = array[i];
+				// 이전 값을 수정
 				f(snakes.get(i) + 1, i);
 			}
-
+			
+			// 사다리를 만나고 사다리 도착 값이 최소 값으로 바뀔 경우
 			if(ladders.containsKey(i) && array[ladders.get(i)] > array[i]) {
 				array[ladders.get(i)] = array[i];
 			}
